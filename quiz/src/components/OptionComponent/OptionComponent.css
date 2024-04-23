@@ -1,0 +1,36 @@
+:root {
+    --color-0bfc03: #0bfc03;
+    --color-3c0e70: #3c0e70;
+}
+
+.class-option {
+    background-color: var(--color-3c0e70);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+.class-option:hover {
+    opacity: 1;
+}
+
+#id-options-container .class-option p {
+    margin-bottom: 0;
+}
+
+.class-correct {
+    background-color: var(--color-0bfc03);
+    font-weight: bold;
+}
+
+.class-wrong {
+    background-color: var(--color-3c0e70);
+    opacity: 0.5;
+}
+
+.class-hide {
+    display: none;
+}

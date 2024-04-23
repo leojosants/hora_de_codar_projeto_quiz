@@ -1,0 +1,46 @@
+:root {
+  --color-ffffff: #ffffff;
+  --color-1c1c1c: #1c1c1c;
+  --color-b854e8: #b854e8;
+  --color-8435de: #8435de;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-ffffff);
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--color-1c1c1c);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(
+    90deg, 
+    var(--color-8435de) 0%,
+    var(--color-b854e8) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--color-b854e8) 0%,
+    var(--color-8435de) 100%
+  );
+}

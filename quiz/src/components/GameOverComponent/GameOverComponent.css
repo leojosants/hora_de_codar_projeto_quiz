@@ -1,0 +1,24 @@
+:root {
+    --color-8435de: #8435de;
+}
+
+#id-gameover {
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#id-gameover h2,
+#id-gameover p {
+    margin-bottom: 1rem;
+}
+
+#id-gameover p {
+    color: var(--color-8435de);
+}
+
+#id-gameover img {
+    margin: 2rem auto;
+    height: 200px;
+}
