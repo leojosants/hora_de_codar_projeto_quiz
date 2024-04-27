@@ -6,7 +6,9 @@ Funcionalidade de embaralhamento de perguntas, opções de categoria e dica.
 
 ### Executando aplicação
 
-  - `npm install`
+  - `cd quiz`
+
+  - `npm install` 
   
   - `npm run dev`
 
